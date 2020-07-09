@@ -771,7 +771,8 @@ MatrixClient.prototype.initCrypto = async function() {
  * @return {boolean} True if end-to-end is enabled.
  */
 MatrixClient.prototype.isCryptoEnabled = function() {
-    return this._crypto !== null;
+    // return this._crypto !== null;
+    return false;
 };
 
 /**
